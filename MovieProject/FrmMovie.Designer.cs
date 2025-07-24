@@ -133,6 +133,7 @@
             this.btMovieDirectorImage.TabIndex = 24;
             this.btMovieDirectorImage.Text = "...";
             this.btMovieDirectorImage.UseVisualStyleBackColor = true;
+            this.btMovieDirectorImage.Click += new System.EventHandler(this.btMovieDirectorImage_Click);
             // 
             // btMovieImage
             // 
@@ -143,6 +144,7 @@
             this.btMovieImage.TabIndex = 23;
             this.btMovieImage.Text = "...";
             this.btMovieImage.UseVisualStyleBackColor = true;
+            this.btMovieImage.Click += new System.EventHandler(this.btMovieImage_Click);
             // 
             // pcbMovieDirectorImage
             // 
@@ -353,6 +355,7 @@
             this.btResetMovie.Text = "ยกเลิก";
             this.btResetMovie.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btResetMovie.UseVisualStyleBackColor = true;
+            this.btResetMovie.Click += new System.EventHandler(this.btResetMovie_Click);
             // 
             // lvShowAllMovie
             // 
@@ -374,6 +377,7 @@
             this.btExit.Text = "Exit";
             this.btExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btExit.UseVisualStyleBackColor = true;
+            this.btExit.Click += new System.EventHandler(this.btExit_Click);
             // 
             // btDeleteMovie
             // 
@@ -387,6 +391,7 @@
             this.btDeleteMovie.Text = "ลบข้อมูล";
             this.btDeleteMovie.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btDeleteMovie.UseVisualStyleBackColor = true;
+            this.btDeleteMovie.Click += new System.EventHandler(this.btDeleteMovie_Click);
             // 
             // btUpdateMovie
             // 
@@ -400,6 +405,7 @@
             this.btUpdateMovie.Text = "บันทึกแก้ไขข้อมูล";
             this.btUpdateMovie.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btUpdateMovie.UseVisualStyleBackColor = true;
+            this.btUpdateMovie.Click += new System.EventHandler(this.btUpdateMovie_Click);
             // 
             // btSaveMovie
             // 
@@ -413,6 +419,7 @@
             this.btSaveMovie.Text = "บันทึกเพิ่มข้อมูล";
             this.btSaveMovie.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btSaveMovie.UseVisualStyleBackColor = true;
+            this.btSaveMovie.Click += new System.EventHandler(this.btSaveMovie_Click);
             // 
             // lvShowSearchMovie
             // 
@@ -423,6 +430,7 @@
             this.lvShowSearchMovie.Size = new System.Drawing.Size(161, 205);
             this.lvShowSearchMovie.TabIndex = 33;
             this.lvShowSearchMovie.UseCompatibleStateImageBehavior = false;
+            this.lvShowSearchMovie.ItemActivate += new System.EventHandler(this.lvShowSearchMovie_ItemActivate);
             // 
             // groupBox1
             // 
@@ -460,6 +468,7 @@
             this.btSearchMovie.TabIndex = 22;
             this.btSearchMovie.Text = "ค้นหา";
             this.btSearchMovie.UseVisualStyleBackColor = true;
+            this.btSearchMovie.Click += new System.EventHandler(this.btSearchMovie_Click);
             // 
             // tbSearchMovie
             // 
